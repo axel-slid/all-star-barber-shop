@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://all-star-barber-shop.vercel.app/sitemap.xml
+Sitemap: https://axel-slid.github.io/all-star-barber-shop/sitemap.xml

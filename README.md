@@ -2,6 +2,8 @@
 
 Static Vite website for All Star Barber Shop in San Mateo, CA.
 
+Public URL: https://axel-slid.github.io/all-star-barber-shop/
+
 ## Scripts
 
 ```bash
