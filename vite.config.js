@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/all-star-barber-shop/",
+  base: process.env.GITHUB_ACTIONS && !process.env.VERCEL ? "/all-star-barber-shop/" : "/",
 });

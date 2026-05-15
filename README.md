@@ -2,7 +2,7 @@
 
 Static Vite website for All Star Barber Shop in San Mateo, CA.
 
-Public URL: https://axel-slid.github.io/all-star-barber-shop/
+Public URL: https://all-star-barber-shop.vercel.app/
 
 ## Scripts
 
