@@ -9,7 +9,7 @@
   --red-dark: #85211e;
   --teal: #176d67;
   --gold: #d29d3f;
-  --shadow: 0 24px 70px rgba(20, 20, 20, 0.18);
+  --shadow: 0 24px 70px rgba(20, 20, 20, 0.16);
   color-scheme: light;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -44,6 +44,10 @@ img {
 
 button {
   font: inherit;
+}
+
+strong {
+  font-weight: inherit;
 }
 
 .site-header {
@@ -83,7 +87,7 @@ button {
   display: inline-flex;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 17px;
-  font-weight: 800;
+  font-weight: 400;
   height: 46px;
   justify-content: center;
   width: 46px;
@@ -96,6 +100,7 @@ button {
 
 .brand strong {
   font-size: 16px;
+  font-weight: 400;
 }
 
 .brand small {
@@ -109,7 +114,7 @@ button {
   display: flex;
   gap: 24px;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .nav-links a:not(.nav-book) {
@@ -124,6 +129,7 @@ button {
 .nav-book {
   background: var(--ink);
   color: var(--paper);
+  font-family: Georgia, "Times New Roman", serif;
   padding: 12px 18px;
 }
 
@@ -166,7 +172,9 @@ button {
 }
 
 .hero-content {
+  border-left: 1px solid rgba(255, 250, 241, 0.26);
   max-width: 790px;
+  padding-left: clamp(18px, 3vw, 34px);
   position: relative;
   z-index: 1;
 }
@@ -174,8 +182,10 @@ button {
 .eyebrow {
   color: var(--red);
   font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.14em;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0;
   margin: 0 0 14px;
   text-transform: uppercase;
 }
@@ -194,23 +204,27 @@ p {
 h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(54px, 9vw, 118px);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0;
-  line-height: 0.9;
+  line-height: 0.92;
   margin-bottom: 22px;
+  text-wrap: balance;
 }
 
 h2 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(34px, 4.8vw, 62px);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: 0;
   line-height: 1;
   margin-bottom: 18px;
+  text-wrap: balance;
 }
 
 h3 {
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 20px;
+  font-weight: 400;
   line-height: 1.2;
   margin-bottom: 12px;
 }
@@ -238,7 +252,8 @@ p {
   align-items: center;
   border: 1px solid transparent;
   display: inline-flex;
-  font-weight: 900;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
   justify-content: center;
   min-height: 48px;
   padding: 14px 20px;
@@ -280,7 +295,9 @@ p {
 .proof-strip strong {
   color: var(--paper);
   display: block;
-  font-size: 28px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 400;
   line-height: 1;
 }
 
@@ -335,7 +352,7 @@ p {
   background: var(--paper);
   border: 1px solid var(--line);
   border-radius: 8px;
-  box-shadow: 0 12px 40px rgba(20, 20, 20, 0.07);
+  box-shadow: 0 12px 40px rgba(20, 20, 20, 0.055);
   padding: 24px;
 }
 
@@ -350,7 +367,8 @@ p {
   color: var(--red-dark);
   display: inline-flex;
   font-size: 13px;
-  font-weight: 900;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
   height: 42px;
   justify-content: center;
   margin-bottom: 24px;
@@ -360,6 +378,8 @@ p {
 .service-card strong {
   color: var(--teal);
   display: block;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
   margin-top: 18px;
 }
 
@@ -402,7 +422,8 @@ p {
   border: 1px solid rgba(255, 250, 241, 0.18);
   border-radius: 8px;
   color: var(--paper);
-  font-weight: 800;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
   padding: 14px;
 }
 
@@ -419,6 +440,8 @@ p {
 
 .review-grid article strong {
   color: var(--red-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
 }
 
 .hours-section {
@@ -455,6 +478,8 @@ p {
 
 .hours-list strong {
   color: var(--red-dark);
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
 }
 
 .callout {
@@ -510,13 +535,16 @@ p {
 
 .map-panel span {
   color: rgba(255, 250, 241, 0.72);
-  font-weight: 800;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
   margin-bottom: 8px;
 }
 
 .map-panel strong {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(32px, 4vw, 48px);
+  font-weight: 400;
   line-height: 1;
 }
 
